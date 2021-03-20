@@ -22,8 +22,9 @@
         <h1>Validador de <b>CPF<b></h1>
 
         
-            <div class="alert alert-success" role="alert">Foi validado com sucesso</div>
-            <div class="alert alert-danger" role="alert">Não validado com sucesso</div>
+            <div th:if="${verdade}" class="alert alert-success" role="alert">Foi validado com sucesso</div>
+            <div th:unless="${verdade}" class="alert alert-danger" role="alert">Não validado</div>
+
             <form action="/" method="GET">
             <input type="submit" value="Voltar" src="/index">
             </form>
