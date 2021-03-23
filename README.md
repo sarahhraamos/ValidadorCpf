@@ -1,2 +1,2 @@
 # ValidadorCpf
-Aplicação simples de validaçãod de CPF, feito em Java.
+Aplicação simples de validação de CPF, feito em Java.
